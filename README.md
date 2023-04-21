@@ -80,3 +80,14 @@ Predicting Time: 15.828 s
 
 ### Extracting Predictions from an SVM
 - What class does your SVM (0 or 1, corresponding to Sara and Chris respectively) predict for element 10 of the test set? The 26th? The 50th?
+
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+Training Time: 0.064 s
+Predicting Time: 0.953 s
+0.8998862343572241
+1
+0
+1
+```
