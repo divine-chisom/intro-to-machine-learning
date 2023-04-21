@@ -77,3 +77,6 @@ Training Time: 99.182 s
 Predicting Time: 15.828 s
 0.9960182025028441
 ```
+
+### Extracting Predictions from an SVM
+- What class does your SVM (0 or 1, corresponding to Sara and Chris respectively) predict for element 10 of the test set? The 26th? The 50th?
