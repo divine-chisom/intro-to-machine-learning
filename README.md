@@ -13,16 +13,16 @@ Training Time: 2.067 s
 Predicting Time: 0.194 s
 0.9732650739476678
 ```
-
-- Import, create, train and make predictions with the sklearn SVC classifier. When creating the classifier, use a linear kernel (if you forget this step, you will be unpleasantly surprised by how long the classifier takes to train). What is the accuracy of the classifier?
+### SVM Author ID Accuracy
+- Import, create, train and make predictions with the sklearn SVC classifier. When creating the classifier, use a linear kernel (if you forget this step, you will be unpleasantly surprised by how long the classifier takes to train). **What is the accuracy of the classifier?**
 
 ```
 No. of Chris training emails :  7936
 No. of Sara training emails :  7884
 0.9840728100113766
 ```
-
-- Place timing code around the fit and predict functions, like you did in the Naive Bayes mini-project. How do the training and prediction times compare to Naive Bayes?
+### SVM Author ID Timing
+- Place timing code around the fit and predict functions, like you did in the Naive Bayes mini-project. **How do the training and prediction times compare to Naive Bayes?**
 
 ```
 No. of Chris training emails :  7936
@@ -31,3 +31,10 @@ Training Time: 98.024 s
 Predicting Time: 9.345 s
 0.9840728100113766
 ```
+### A Smaller Training Set
+- features_train = features_train[:len(features_train)/100]
+labels_train = labels_train[:len(labels_train)/100]
+
+These lines effectively slice the training dataset down to 1% of its original size, tossing out 99% of the training data. You can leave all other code unchanged. **What’s the accuracy now?**
+
+
