@@ -37,4 +37,11 @@ labels_train = labels_train[:len(labels_train)/100]
 
 These lines effectively slice the training dataset down to 1% of its original size, tossing out 99% of the training data. You can leave all other code unchanged. **What’s the accuracy now?**
 
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+Training Time: 0.068 s
+Predicting Time: 0.536 s
+0.8845278725824801
+```
 
