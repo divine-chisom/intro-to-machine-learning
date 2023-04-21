@@ -21,3 +21,5 @@ No. of Chris training emails :  7936
 No. of Sara training emails :  7884
 0.9840728100113766
 ```
+
+- Place timing code around the fit and predict functions, like you did in the Naive Bayes mini-project. How do the training and prediction times compare to Naive Bayes?
