@@ -59,3 +59,11 @@ Predicting Time: 0.998 s
 
 ### Accuracy after Optimizing C
 - Once you've optimized the C value for your RBF kernel, **what accuracy does it give? Does this C value correspond to a simpler or more complex decision boundary?**
+
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+Training Time: 0.069 s
+Predicting Time: 1.453 s
+0.8998862343572241
+```
