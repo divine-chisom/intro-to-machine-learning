@@ -46,3 +46,11 @@ Predicting Time: 0.536 s
 ```
 ### Deploy an RBF Kernel
 - Keep the training set slice code from the last quiz, so that you are still training on only 1% of the full training set. Change the kernel of your SVM to “rbf”. **What’s the accuracy now, with this more complex kernel?**
+
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+Training Time: 0.073 s
+Predicting Time: 0.998 s
+0.8953356086461889
+```
