@@ -25,9 +25,6 @@ features_train, features_test, labels_train, labels_test = preprocess()
 from sklearn.svm import SVC
 clf = SVC(C=10000.)
 
-features_train = features_train[:int(len(features_train)/100)]
-labels_train = labels_train[:int(len(labels_train)/100)]
-
 t0 = time()
 clf.fit(features_train, labels_train)
 print("Training Time:", round(time()-t0, 3), "s")
@@ -40,9 +37,7 @@ from sklearn.metrics import accuracy_score
 acc = accuracy_score(pred, labels_test)
 print(acc)
 #########################################################
-print(pred[10])
-print(pred[26])
-print(pred[50])
+print(sum(pred==1))
 #########################################################
 '''
 You'll be Provided similar code in the Quiz
