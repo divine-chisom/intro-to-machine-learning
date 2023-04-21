@@ -93,3 +93,11 @@ Predicting Time: 0.953 s
 ```
 ### How Many Chris Emails Predicted?
 - There are over 1700 test events--how many are predicted to be in the “Chris” (1) class? (Use the RBF kernel, C=10000., and the full training set.)
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+Training Time: 99.496 s
+Predicting Time: 16.574 s
+0.9960182025028441
+866
+```
