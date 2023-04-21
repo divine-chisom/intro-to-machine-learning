@@ -57,3 +57,5 @@ Predicting Time: 0.998 s
 ### Optimize C Parameter
 - Keep the training set size and rbf kernel from the last quiz, but try several values of C (say, 10.0, 100., 1000., and 10000.). **Which one gives the best accuracy?**
 
+### Accuracy after Optimizing C
+- Once you've optimized the C value for your RBF kernel, **what accuracy does it give? Does this C value correspond to a simpler or more complex decision boundary?**
