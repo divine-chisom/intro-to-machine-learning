@@ -54,3 +54,6 @@ Training Time: 0.073 s
 Predicting Time: 0.998 s
 0.8953356086461889
 ```
+### Optimize C Parameter
+- Keep the training set size and rbf kernel from the last quiz, but try several values of C (say, 10.0, 100., 1000., and 10000.). **Which one gives the best accuracy?**
+
