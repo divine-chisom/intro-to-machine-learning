@@ -69,3 +69,11 @@ Predicting Time: 1.453 s
 ```
 ### Optimized RBF vs. Linear SVM: Accuracy
 - Now that you’ve optimized C for the RBF kernel, go back to using the full training set. In general, having a larger training set will improve the performance of your algorithm, so (by tuning C and training on a large dataset) we should get a fairly optimized result. **What is the accuracy of the optimized SVM?**
+
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+Training Time: 99.182 s
+Predicting Time: 15.828 s
+0.9960182025028441
+```
