@@ -16,3 +16,8 @@ Predicting Time: 0.194 s
 
 - Import, create, train and make predictions with the sklearn SVC classifier. When creating the classifier, use a linear kernel (if you forget this step, you will be unpleasantly surprised by how long the classifier takes to train). What is the accuracy of the classifier?
 
+```
+No. of Chris training emails :  7936
+No. of Sara training emails :  7884
+0.9840728100113766
+```
